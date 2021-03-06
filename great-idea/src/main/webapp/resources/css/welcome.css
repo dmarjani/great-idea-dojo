@@ -1,0 +1,24 @@
+body {
+	min-height: 100%;
+}
+
+#menuSlideContent {
+	min-height: 100%;
+}
+
+.headerBodyContent {
+	min-height: 100%;
+}
+
+nav.navbar {
+	background-color: navajowhite !important;
+}
+
+li.dropdown ul {
+	background-color: navajowhite !important;
+}
+
+div.card-footer {
+	background-color: navajowhite !important;
+}
+}
