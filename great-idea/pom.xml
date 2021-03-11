@@ -10,10 +10,10 @@
   
   	<groupId>com.marjani</groupId>
   	<artifactId>greatidea</artifactId>
-  	<version>0.0.1-SNAPSHOT</version>
+  	<version>0.0.2-SNAPSHOT</version>
   	<packaging>war</packaging>
   	<name>Great Ideas</name>
-  	<description>spring boot, spring security, jsp project example for handling great ideas </description>
+  	<description>spring boot, spring security, jsp project example for handling great ideas updated for external tomcat deploy</description>
 
 	<properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -36,6 +36,7 @@
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-jasper</artifactId>
+            <scope>provided</scope>
         </dependency>
 
         <dependency>
@@ -66,6 +67,7 @@
         
     </dependencies>
     <build>
+    	<finalName>greatidea</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
